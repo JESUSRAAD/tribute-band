@@ -1,0 +1,197 @@
+body {
+  margin: 0%;
+  /* background-color: aqua; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+#logoNavBar {
+  height: 100px;
+}
+
+#socialMedias {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 10px;
+}
+
+.redesSocialMedia {
+  height: 50px;
+}
+
+#socialMedias-instagram {
+  background-color: rgba(234, 80, 80, 0.799);
+  border-radius: 50%;
+}
+#socialMedias-twitter {
+  background-color: rgba(46, 43, 43, 0.799);
+  border-radius: 50%;
+}
+#socialMedias-youtube {
+  background-color: rgba(243, 28, 28, 0.799);
+  border-radius: 50%;
+}
+#socialMedias-spotify {
+  background-color: rgba(55, 132, 62, 0.799);
+  border-radius: 50%;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://media.npr.org/assets/img/2023/09/18/dsc08617-cc701ed01c624fd147bc799396291e12764e4797.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-size: larger;
+}
+
+#concertDate-Location {
+  background-color: rgba(245, 222, 179, 0.662);
+
+  height: 610px;
+  width: 910px;
+  border-radius: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#headTable-nextConcerts {
+  grid-column: 1/4;
+  color: #ffc400;
+  font-size: 45px;
+
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+.date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #ffc400;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.874);
+}
+
+.location {
+  color: gray;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.733);
+}
+
+.about-rawayana {
+  margin: 0px 20px;
+  border: royalblue;
+  text-align: center;
+}
+
+#whtIs-rawayana {
+  color: #ffc400;
+  font-size: 45px;
+
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+#answer-whatIs {
+  margin: 0px 100px;
+  justify-content: center;
+  font-size: larger;
+  padding-bottom: 50px;
+}
+
+#members{
+   
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+}
+
+
+
+
+.rawuayanaMembers{
+height: 140px;
+border-radius: 50%;
+
+
+}
+
+.nameMembers{
+
+    font-size: larger;
+font-style: oblique;
+
+}
+
+
+#bestSaler {
+  
+  width: 100vw;
+display: flex;
+flex-direction: row; 
+gap: 50px;
+  justify-content: center;
+  align-items: center;
+ text-align: center;
+}
+
+#HoraLoca{
+    
+padding-bottom: 400px;
+
+
+}
+
+#NadaMalo{
+   
+    padding-top: 600px;
+
+}
+
+h2{
+    font-family: "Alfa Slab One", serif;   
+border-radius: 40%;
+font-size: 50px;
+color: #ffc400;
+-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+footer {
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    background-color: #ffc400;
+    margin:0px 20px;
+  }
+
+  #fansClub-footer{ 
+    font-family: "Alfa Slab One", serif;   
+border-radius: 40%;
+font-size: 50px;
+color: white;
+-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+
+
+  }
