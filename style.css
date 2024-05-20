@@ -56,7 +56,7 @@ section {
 
 #concertDate-Location {
   background-color: rgba(245, 222, 179, 0.662);
-
+position: relative;
   height: 610px;
   width: 910px;
   border-radius: 10%;
@@ -65,6 +65,14 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  
+  transition: all 0, 6s ease;
+}
+
+#concertDate-Location:hover{
+
+    background-color: rgba(245, 222, 179, 0.849);
 }
 
 #headTable-nextConcerts {
@@ -79,18 +87,43 @@ section {
   -webkit-text-stroke-color: black;
 }
 
-.date {
+.date {position: relative;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   color: #ffc400;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.874);
+  transition: all 0, 6s ease;
+}
+.date:hover{
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
 }
 
-.location {
+
+.location {position: relative;
   color: gray;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgba(0, 0, 0, 0.733);
+  transition: all 0, 6s ease;
+}
+
+.location:hover{
+    font-size: 30px;
+    color: black;
+    
+}
+
+.price{position: relative;
+    
+    transition: all 0, 6s ease;
+
+
+}
+.price:hover{
+    font-size: 45px;
+    
+    
 }
 
 .about-rawayana {
@@ -117,81 +150,83 @@ section {
   padding-bottom: 50px;
 }
 
-#members{
-   
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-align-items: center;
-text-align: center;
+#members {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
 }
 
+.rawuayanaMembers {position: relative;
+  border-radius: 50%;
 
-
-
-.rawuayanaMembers{
-height: 140px;
-border-radius: 50%;
-
-
+  
+  transition: all 0, 6s ease;
+  height: 140px;
 }
 
-.nameMembers{
-
-    font-size: larger;
-font-style: oblique;
+.rawuayanaMembers:hover{
+ 
+    height: 190px;
 
 }
 
+.nameMembers {
+  font-size: larger;
+  font-style: oblique;
+}
 
 #bestSaler {
-  
-  width: 100vw;
-display: flex;
-flex-direction: row; 
-gap: 50px;
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
   justify-content: center;
   align-items: center;
- text-align: center;
-}
-
-#HoraLoca{
-    
-padding-bottom: 400px;
-
+  text-align: center;
 
 }
 
-#NadaMalo{
-   
-    padding-top: 600px;
-
+#HoraLoca {
+  padding-bottom: 400px;
 }
 
-h2{
-    font-family: "Alfa Slab One", serif;   
-border-radius: 40%;
-font-size: 50px;
-color: #ffc400;
--webkit-text-stroke-width: 3px;
+#NadaMalo {
+  padding-top: 600px;
+}
+
+h2 {
+  font-family: "Alfa Slab One", serif;
+  border-radius: 40%;
+  font-size: 50px;
+  color: #ffc400;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
+}
+
+iframe{
+position: relative;
+transition: all 1s, 2s ease;
+}
+iframe:hover{
+width: 50vw;
 }
 
 footer {
-    display: flex;
-   justify-content: center;
-    align-items: center;
-    background-color: #ffc400;
-    margin:0px 20px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc400;
+ margin: 0px 20px;
+  border: 4px solid black;
+}
 
-  #fansClub-footer{ 
-    font-family: "Alfa Slab One", serif;   
-border-radius: 40%;
-font-size: 50px;
-color: white;
--webkit-text-stroke-width: 3px;
+#fansClub-footer {
+  font-family: "Alfa Slab One", serif;
+  border-radius: 40%;
+  font-size: 50px;
+  color: white;
+  -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: black;
-
-
-  }
+}
